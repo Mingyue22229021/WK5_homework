@@ -25,12 +25,12 @@ Download gender inequality index data from the UNDP, and join to spatial data of
 
 ```{r loaddata}
 genderindex <- read_csv(
-  here("Data", "HDR21-22_Composite_indices_complete_time_series.csv")
+  here("D:/A-UCL/005GISlecture/WK4/Homework/WK4_Homework", "HDR21-22_Composite_indices_complete_time_series.csv")
   # Think about the 'na =' and 'locale' arguments
   #   e.g. review the csv first to see what the na is represented as
   )
 
-worldshp <- read_sf(here("Data", "World_Countries__Generalized_.shp"))
+worldshp <- read_sf(here("D:/A-UCL/005GISlecture/WK4/Homework/WK4_Homework/World_Countries_(Generalized)", "World_Countries__Generalized_.shp"))
 
 ```
 
